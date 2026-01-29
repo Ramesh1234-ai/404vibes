@@ -25,8 +25,8 @@ A modern, responsive portfolio website showcasing projects, skills, and experien
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/portfolio.git
-cd portfolio
+git clone https://github.com/Ramesh1234-ai/404vibes.git
+cd 404vibes
 ```
 
 2. Install dependencies:
