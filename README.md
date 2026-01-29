@@ -7,11 +7,10 @@ A modern, responsive portfolio website showcasing projects, skills, and experien
 - **Responsive Design** - Mobile-friendly portfolio that looks great on all devices
 - **Smooth Animations** - Scroll animations and transitions for enhanced user experience
 - **Dark/Light Theme** - Toggle between dark and light modes
-- **Social Links** - Integrated social media icons (GitHub, LinkedIn, Twitter, Instagram, Email)
+- **Social Links** - Integrated social media icons (GitHub, LinkedIn, Twitter,Email)
 - **Contact Form** - Firebase-integrated contact form for inquiries
 - **Projects Showcase** - Display of completed projects with descriptions and links
 - **Skills Section** - Organized by categories (Frontend, Backend, Tools, Database)
-- **Experience Timeline** - Visual timeline of professional experience
 
 ## Tech Stack
 
