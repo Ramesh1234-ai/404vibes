@@ -7,7 +7,6 @@ import {
   faTwitter
 } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'lucide-react';
 // Sample Data
 const portfolioData = {
   hero: {
@@ -393,31 +392,31 @@ export default function Portfolio() {
             >
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <Link
-              to="https://www.linkedin.com/in/rishit-sinha-6953ab363/"
+            <a
+              href="https://www.linkedin.com/in/rishit-sinha-6953ab363/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl transition-transform hover:scale-125 hover:text-indigo-500"
               title="LinkedIn"
             >
               <FontAwesomeIcon icon={faLinkedin} />
-            </Link>
-            <Link
-              to="https://twitter.com"
+            </a>
+            <a
+              href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl transition-transform hover:scale-125 hover:text-indigo-500"
               title="Twitter"
             >
               <FontAwesomeIcon icon={faTwitter} />
-            </Link>
-            <Link
-              to="mailto:Sinharishit04@gmail.com"
+            </a>
+            <a
+              href="mailto:Sinharishit04@gmail.com"
               className="text-2xl transition-transform hover:scale-125 hover:text-indigo-500"
               title="Email"
             >
               <FontAwesomeIcon icon={faEnvelope} />
-            </Link>
+            </a>
           </div>
           
           {/* Copyright */}
