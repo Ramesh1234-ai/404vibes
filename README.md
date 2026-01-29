@@ -1,16 +1,85 @@
-# React + Vite
+# Rishit Sinha - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website showcasing projects, skills, and experience. Built with React, Tailwind CSS, Vite, and Firebase.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design** - Mobile-friendly portfolio that looks great on all devices
+- **Smooth Animations** - Scroll animations and transitions for enhanced user experience
+- **Dark/Light Theme** - Toggle between dark and light modes
+- **Social Links** - Integrated social media icons (GitHub, LinkedIn, Twitter, Instagram, Email)
+- **Contact Form** - Firebase-integrated contact form for inquiries
+- **Projects Showcase** - Display of completed projects with descriptions and links
+- **Skills Section** - Organized by categories (Frontend, Backend, Tools, Database)
+- **Experience Timeline** - Visual timeline of professional experience
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React, Tailwind CSS, Lucide React Icons
+- **Build Tool**: Vite
+- **Icons**: Font Awesome (React FontAwesome)
+- **Database**: Firebase Firestore
+- **Styling**: Tailwind CSS with PostCSS
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Set up Firebase configuration in `src/App.jsx` with your credentials
+
+4. Start the development server:
+```bash
+npm run dev
+```
+
+## Building for Production
+
+```bash
+npm run build
+```
+
+The optimized build will be in the `dist` folder.
+
+## Project Structure
+
+```
+port/
+├── src/
+│   ├── App.jsx           # Main component
+│   ├── index.css         # Global styles
+│   ├── main.jsx          # Entry point
+│   └── assets/           # Static assets
+├── public/               # Public assets
+├── index.html            # HTML template
+├── package.json          # Dependencies
+├── vite.config.js        # Vite configuration
+├── tailwind.config.js    # Tailwind CSS configuration
+└── README.md             # This file
+```
+
+## Customization
+
+- **Personal Information**: Edit portfolio data in `src/App.jsx`
+- **Social Links**: Update social media URLs in the footer section
+- **Styles**: Modify Tailwind classes for custom styling
+- **Firebase**: Replace the Firebase config with your own credentials
+
+## Contact
+
+For inquiries or collaboration opportunities, use the contact form on the portfolio or reach out via:
+- Email: your.email@example.com
+- LinkedIn: https://linkedin.com
+- GitHub: https://github.com
+
+## License
+
+This project is open source and available under the MIT License.
